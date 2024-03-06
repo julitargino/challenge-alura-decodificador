@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Ojuju:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Decodificador</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__titulo">Decodificador - Desafio Alura ONE turma 6</h1>
+    </header>
+
+    <main>
+            <div class="criptografar">
+                <textarea class="criptografar__text"  cols="41" rows="4" placeholder="Digite seu texto"></textarea>
+                <p class="criptografar__alerta"> <img src="images/Vector.png"> Apenas letras minúsculas e sem acento.</p>
+                <div class="botoes">
+                    <button class="btn-encriptar btn" onclick="btnEncriptar()">Criptografar</button>
+                    <button class="btn-desencriptar btn" onclick="btnDesencriptar()">Descriptografar</button>
+                </div>
+            </div>
+            <div class="descriptografar">
+                <textarea class="mensagem" cols="20" rows="10"></textarea>
+                <button class="btn-copiar btn" onclick="btncopiar()">Copiar</button>
+            </div>
+    </main>
+</body>
+<footer class="rodape">
+    <p>Desenvolvido por YhuliCodes</p>
+    <div class="rodape__links">
+        <img src="images/github-logo.png" alt="github logo"><a href="https://github.com/julitargino">Github</a>
+        <img src="images/linkedin-logo.png" alt="linkedin logo"><a
+            href="https://www.linkedin.com/in/juliana-targino-40b185253/">Linkedin</a>
+    </div>
+</footer>
+<script src="script.js"></script>
+
+</html>
